@@ -2518,7 +2518,7 @@ TestInfo::TestInfo(const std::string& a_test_case_name,
       result_() {}
 
 // Destructs a TestInfo object.
-TestInfo::~TestInfo() { delete factory_; }
+TestInfo::~TestInfo() { }
 
 namespace internal {
 
